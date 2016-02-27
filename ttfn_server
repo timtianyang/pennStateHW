@@ -50,10 +50,10 @@ int main(int argc, char *argv[])
                     perror("reading stream message error");
                 }
                 clock_t end = clock();
-
+                if (rval == 0) break;
                 printf("Got the message (rval = %d) (time = %Lf)\n", (int)rval, (long double)end/CLOCKS_PER_SEC);
                 fflush(stdout);
-                if (rval == 0) break;
+                
             }
             
         }
