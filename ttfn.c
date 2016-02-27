@@ -18,8 +18,8 @@ int main(int argc, char *argv[]) {
     int opt= 0;
     int through_put = 0;
     int latency = 0;
-    int repeat = 0;
-    int packet_size = 0;
+    int repeat = 1;
+    int packet_size = 1;
     struct hostent *hp;
 
     //Specifying the expected options
@@ -55,11 +55,14 @@ int main(int argc, char *argv[]) {
         print_usage();
         exit(EXIT_FAILURE);
     }
-    printf("%s\n", argv[argc-1]);
+    if( packet_size <= 0 || repeat <=0 )
+    {
+        printf("packet_size, repeats must be greater than 0\n");
+        exit(EXIT_FAILURE);
+    }
     hp = gethostbyname(argv[argc-1]);
     if( hp == 0)
-    {
-        
+    {        
         printf("fail to resolve this host name\n");
         exit(EXIT_FAILURE);
     }
@@ -67,7 +70,7 @@ int main(int argc, char *argv[]) {
     {
         struct in_addr **addr_list;
         int i;
-        printf("    IP addresses: ");
+        printf("    Host Address to test: ");
         addr_list = (struct in_addr **)hp->h_addr_list;
         for(i = 0; addr_list[i] != NULL; i++) {
             printf("%s ", inet_ntoa(*addr_list[i]));
@@ -77,10 +80,15 @@ int main(int argc, char *argv[]) {
     if( latency )
     {
         printf("measuring latency\n");
+        if(packet_size == 1)
+            packet_size = 64;
     }
     else if ( through_put )
     {
         printf("measuring throughput\n");
+        if(packet_size == 1)
+            packet_size = 512;
+
     }
 
     printf("packet size is %d\n",packet_size);
