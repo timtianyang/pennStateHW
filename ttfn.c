@@ -1,7 +1,14 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include <getopt.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <netdb.h>
+#include <time.h>
 
 void print_usage() {
     printf("Usage: --latency|--throughput [- p packagesize] [-r repeats] hostname\n");
@@ -13,6 +20,7 @@ int main(int argc, char *argv[]) {
     int latency = 0;
     int repeat = 0;
     int packet_size = 0;
+    struct hostent *hp;
 
     //Specifying the expected options
     //The two options l and b expect numbers as argument
@@ -42,6 +50,30 @@ int main(int argc, char *argv[]) {
                  exit(EXIT_FAILURE);
         }
     }
+    if( latency && through_put )   
+    {
+        print_usage();
+        exit(EXIT_FAILURE);
+    }
+    printf("%s\n", argv[argc-1]);
+    hp = gethostbyname(argv[argc-1]);
+    if( hp == 0)
+    {
+        
+        printf("fail to resolve this host name\n");
+        exit(EXIT_FAILURE);
+    }
+    else
+    {
+        struct in_addr **addr_list;
+        int i;
+        printf("    IP addresses: ");
+        addr_list = (struct in_addr **)hp->h_addr_list;
+        for(i = 0; addr_list[i] != NULL; i++) {
+            printf("%s ", inet_ntoa(*addr_list[i]));
+        }
+        printf("\n"); 
+    }
     if( latency )
     {
         printf("measuring latency\n");
@@ -50,12 +82,7 @@ int main(int argc, char *argv[]) {
     {
         printf("measuring throughput\n");
     }
-    if( latency && through_put )   
-    {
-        print_usage();
-        exit(EXIT_FAILURE);
-    } 
-    
+
     printf("packet size is %d\n",packet_size);
     printf("repeating %d times\n",repeat);
     return 0;
