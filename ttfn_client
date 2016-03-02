@@ -22,6 +22,7 @@ int latency = 0;
 int repeat = 1;
 int packet_size = 1;
 char *hostip;
+const int PORT = 13547;
 
 int main(int argc, char *argv[]) {
     int opt= 0;
@@ -74,7 +75,6 @@ int main(int argc, char *argv[]) {
     {
         struct in_addr **addr_list;
         int i;
-        int len;
         printf("    Host Address to test: ");
         addr_list = (struct in_addr **)hp->h_addr_list;
         for(i = 0; addr_list[i] != NULL; i++) {
@@ -124,7 +124,7 @@ void ttfn_latency(){
     server.sin_family = AF_INET;
     
     memcpy(&server.sin_addr, hp->h_addr, hp->h_length);
-    server.sin_port = htons(5000);
+    server.sin_port = htons(PORT);
     
     if(connect(sock, (struct sockaddr *) &server, sizeof(server)) < 0){
         perror("Connect failed");
@@ -136,7 +136,8 @@ void ttfn_latency(){
     long double sum = 0;
     int count = 0;
     
-    for (int i = 0; i<repeat; i++){
+    int i;
+    for ( i = 0; i<repeat; i++){
         start = clock();
         if((n =send(sock, buf, packet_size, 0)) < 0){
             perror("send failed");
@@ -153,10 +154,8 @@ void ttfn_latency(){
         sleep(1);
     }
     long double avg = sum / repeat;
-    long total = n*repeat;
-    //printf("Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)\n");
     printf("%d packets transmitted, %d packets received, %.2Lf %% packet loss\n", repeat, count, (long double)(repeat - count)/repeat);
-    printf("round-trip max: %Lf min: %Lf avg: %Lf\n", min, max, avg);
+    printf("round-trip max: %Lf ms min: %Lf ms avg: %Lf ms\n", max*1000, min*1000, avg*1000);
     fflush(stdout);
     
     close(sock);
@@ -186,7 +185,7 @@ void ttfn_throughput(){
     server.sin_family = AF_INET;
     
     memcpy(&server.sin_addr, hp->h_addr, hp->h_length);
-    server.sin_port = htons(5000);
+    server.sin_port = htons(PORT);
     
     if(connect(sock, (struct sockaddr *) &server, sizeof(server)) < 0){
         perror("Connect failed");
@@ -196,8 +195,8 @@ void ttfn_throughput(){
     long double max = 0;
     long double min = 1000;
     long double sum = 0;
-    
-    for (int i = 0; i<repeat; i++){
+    int i;
+    for (i = 0; i<repeat; i++){
         start = clock();
         if((n =send(sock, buf, packet_size, 0)) < 0){
             perror("send failed");
@@ -205,7 +204,7 @@ void ttfn_throughput(){
         }
         end = clock();
         cpu_time_used = ((double) (end - start)/CLOCKS_PER_SEC);
-        printf("Sent %d bytes  time %Lf\n", (int)n, (long double)cpu_time_used);
+        printf("Sent %d bytes  time %Lf s\n", (int)n, (long double)cpu_time_used);
         fflush(stdout);
         if (cpu_time_used > max) max = cpu_time_used;
         if (cpu_time_used < min) min = cpu_time_used;
@@ -215,8 +214,8 @@ void ttfn_throughput(){
     long double avg = sum / repeat;
     long total = n*repeat;
     printf("Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)\n");
-    printf("%li  %Lf  %Lf  %d  %d\n", total, sum, (long double)total/sum, repeat, packet_size);
-    printf("max: %Lf\nmin: %Lf\navg: %Lf\n", min, max, avg);
+    printf("%li      %Lf    %.2Lf          %d         %d\n", total, sum, (long double)total/sum, repeat, packet_size);
+    printf("max: %Lf ms min: %Lf ms avg: %Lf ms\n", max*1000, min*1000, avg*1000);
     fflush(stdout);
     
     close(sock);
