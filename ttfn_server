@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     struct sockaddr_in server;
     int mysock;
     const int BUFSIZE = 65536;
+    const int PORT = 13547;
     char buff[BUFSIZE];
     ssize_t rval = 0;
     
@@ -26,7 +27,7 @@ int main(int argc, char *argv[])
     }
     server.sin_family = AF_INET;
     server.sin_addr.s_addr = INADDR_ANY;
-    server.sin_port = htons(5000);
+    server.sin_port = htons(PORT);
     
     /* Call bind */
     if(bind(sock, (struct sockaddr *)&server, sizeof(server)))
