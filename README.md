@@ -9,6 +9,6 @@ To run the program:
 Note:
 - The port number is hard coded in server and client code to be 13547. You may change the port number in case there's a conflict
 - Our test typescripts are saved in directory /ttfn/typescripts
-- We use the package size specified by the command line argument as the total size of each package
+- We use the package size specified by the command line argument as the total size of each package (including 20 bytes IP header and in our case 20 bytes TCP header)
 - We used bash scripts run_[name].sh to automate the testings.
    run the script on the client side using ./run_[name].sh
