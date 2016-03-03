@@ -155,7 +155,8 @@ void ttfn_latency(){
     }
     long double avg = sum / repeat;
     printf("%d packets transmitted, %d packets received, %.2Lf %% packet loss\n", repeat, count, (long double)(repeat - count)/repeat);
-    printf("round-trip max: %Lf ms min: %Lf ms avg: %Lf ms\n", max*1000, min*1000, avg*1000);
+    if (repeat > 1)
+        printf("round-trip max: %Lf ms min: %Lf ms avg: %Lf ms\n", max*1000, min*1000, avg*1000);
     fflush(stdout);
     
     close(sock);
@@ -215,7 +216,8 @@ void ttfn_throughput(){
     long total = n*repeat;
     printf("Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)\n");
     printf("%li      %Lf    %.2Lf          %d         %d\n", total, sum, (long double)total/sum, repeat, packet_size);
-    printf("max: %Lf ms min: %Lf ms avg: %Lf ms\n", max*1000, min*1000, avg*1000);
+    if (repeat > 1)
+        printf("max: %Lf ms min: %Lf ms avg: %Lf ms\n", max*1000, min*1000, avg*1000);
     fflush(stdout);
     
     close(sock);
