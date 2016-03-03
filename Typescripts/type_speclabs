@@ -1,0 +1,798 @@
+Script started on Thu 03 Mar 2016 04:16:24 PM EST
+manz@spec03:~/Docs/CIS553> ./run.sh
+ttfn --latency -p -65536 -r 1 spec07.seas.upenn.edu
+packet_size, repeats must be greater than 0
+************Done***************
+ttfn --latency -p -65536 -r 10 spec07.seas.upenn.edu
+packet_size, repeats must be greater than 0
+************Done***************
+ttfn --latency -p -65536 -r 100 spec07.seas.upenn.edu
+packet_size, repeats must be greater than 0
+************Done***************
+ttfn --latency -p 512 -r 1 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.013000 ms
+1 packets transmitted, 1 packets received, 0.00 % packet loss
+round-trip max: 0.013000 ms min: 0.013000 ms avg: 0.013000 ms
+************Done***************
+ttfn --latency -p 512 -r 10 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.020000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.034000 ms
+10 packets transmitted, 10 packets received, 0.00 % packet loss
+round-trip max: 0.034000 ms min: 0.020000 ms avg: 0.026400 ms
+************Done***************
+ttfn --latency -p 512 -r 100 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.012000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.023000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.033000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.033000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.033000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.033000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.037000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.033000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.037000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.028000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.035000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.025000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+512 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.036000 ms
+100 packets transmitted, 100 packets received, 0.00 % packet loss
+round-trip max: 0.037000 ms min: 0.012000 ms avg: 0.025870 ms
+************Done***************
+ttfn --latency -p 2048 -r 1 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.024000 ms
+1 packets transmitted, 1 packets received, 0.00 % packet loss
+round-trip max: 0.024000 ms min: 0.024000 ms avg: 0.024000 ms
+************Done***************
+ttfn --latency -p 2048 -r 10 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.028000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.053000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+10 packets transmitted, 10 packets received, 0.00 % packet loss
+round-trip max: 0.053000 ms min: 0.028000 ms avg: 0.033600 ms
+************Done***************
+ttfn --latency -p 2048 -r 100 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.029000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.033000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.032000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.053000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.041000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.041000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.041000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.043000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.030000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.040000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.039000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.038000 ms
+2048 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.031000 ms
+100 packets transmitted, 100 packets received, 0.00 % packet loss
+round-trip max: 0.053000 ms min: 0.029000 ms avg: 0.032400 ms
+************Done***************
+ttfn --latency -p 54321 -r 1 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.049000 ms
+1 packets transmitted, 1 packets received, 0.00 % packet loss
+round-trip max: 0.049000 ms min: 0.049000 ms avg: 0.049000 ms
+************Done***************
+ttfn --latency -p 54321 -r 10 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.040000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.064000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.068000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.058000 ms
+10 packets transmitted, 10 packets received, 0.00 % packet loss
+round-trip max: 0.068000 ms min: 0.040000 ms avg: 0.059900 ms
+************Done***************
+ttfn --latency -p 54321 -r 100 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring latency
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.058000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.064000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.069000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.077000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.066000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.069000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.069000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.058000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.064000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.091000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.064000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.058000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.066000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.077000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.066000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.075000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.075000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.071000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.063000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.075000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.060000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.065000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.062000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.059000 ms
+54321 bytes from spec07.seas.upenn.edu(158.130.24.207): time= 0.061000 ms
+100 packets transmitted, 100 packets received, 0.00 % packet loss
+round-trip max: 0.091000 ms min: 0.058000 ms avg: 0.061920 ms
+************Done***************
+ttfn --throughput -p -65536 -r 1 spec07.seas.upenn.edu
+packet_size, repeats must be greater than 0
+************Done***************
+ttfn --throughput -p -65536 -r 10 spec07.seas.upenn.edu
+packet_size, repeats must be greater than 0
+************Done***************
+ttfn --throughput -p -65536 -r 100 spec07.seas.upenn.edu
+packet_size, repeats must be greater than 0
+************Done***************
+ttfn --throughput -p 512 -r 1 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 512 bytes  time 0.000020 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+512      0.000020    25600000.00          1         512
+************Done***************
+ttfn --throughput -p 512 -r 10 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 512 bytes  time 0.000014 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000039 s
+Sent 512 bytes  time 0.000025 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+5120      0.000263    19467680.61          10         512
+************Done***************
+ttfn --throughput -p 512 -r 100 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 512 bytes  time 0.000014 s
+Sent 512 bytes  time 0.000033 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000056 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000029 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000044 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000027 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000033 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000063 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000031 s
+Sent 512 bytes  time 0.000029 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000032 s
+Sent 512 bytes  time 0.000025 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000024 s
+Sent 512 bytes  time 0.000025 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+51200      0.002605    19654510.56          100         512
+************Done***************
+ttfn --throughput -p 2048 -r 1 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 2048 bytes  time 0.000030 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+2048      0.000030    68266666.67          1         2048
+************Done***************
+ttfn --throughput -p 2048 -r 10 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000034 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+20480      0.000312    65641025.64          10         2048
+************Done***************
+ttfn --throughput -p 2048 -r 100 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 2048 bytes  time 0.000022 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000038 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000049 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000054 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000033 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000040 s
+Sent 2048 bytes  time 0.000038 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000032 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.039760 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000041 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000035 s
+Sent 2048 bytes  time 0.000044 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000038 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000030 s
+Sent 2048 bytes  time 0.000044 s
+Sent 2048 bytes  time 0.000038 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Sent 2048 bytes  time 0.000031 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+204800      0.042924    4771223.56          100         2048
+************Done***************
+ttfn --throughput -p 54321 -r 1 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 54321 bytes  time 0.000052 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+54321      0.000052    1044634615.38          1         54321
+************Done***************
+ttfn --throughput -p 54321 -r 10 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 54321 bytes  time 0.000057 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000064 s
+Sent 54321 bytes  time 0.000082 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000067 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+543210      0.000629    863608903.02          10         54321
+************Done***************
+ttfn --throughput -p 54321 -r 100 spec07.seas.upenn.edu
+    Host Address to test: 158.130.24.207 
+measuring throughput
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000064 s
+Sent 54321 bytes  time 0.000066 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000075 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000073 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000083 s
+Sent 54321 bytes  time 0.000058 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000065 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000067 s
+Sent 54321 bytes  time 0.000073 s
+Sent 54321 bytes  time 0.000066 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000065 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000070 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000065 s
+Sent 54321 bytes  time 0.000075 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000065 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000064 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000065 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000066 s
+Sent 54321 bytes  time 0.000058 s
+Sent 54321 bytes  time 0.000066 s
+Sent 54321 bytes  time 0.000071 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000066 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000076 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000074 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000065 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000073 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000073 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000075 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000058 s
+Sent 54321 bytes  time 0.000066 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000058 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000063 s
+Sent 54321 bytes  time 0.000058 s
+Sent 54321 bytes  time 0.000076 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000061 s
+Sent 54321 bytes  time 0.000077 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000060 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000059 s
+Sent 54321 bytes  time 0.000060 s
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+5432100      0.006251    868996960.49          100         54321
+************Done***************
+manz@spec03:~/Docs/CIS553> exit
+exit
+
+Script done on Thu 03 Mar 2016 04:27:44 PM EST
