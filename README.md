@@ -12,3 +12,4 @@ Note:
 - We use the package size specified by the command line argument as the total size of each package (including 20 bytes IP header and in our case 20 bytes TCP header)
 - We used bash scripts run_[name].sh to automate the testings.
    run the script on the client side using ./run_[name].sh
+- Both the server and the client are based on TCP and the timing is kept on the client side only, with the assumption that the server ACKs when TCP packets are received, for both Ping and Throughput.
