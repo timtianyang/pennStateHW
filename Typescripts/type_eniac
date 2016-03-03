@@ -1,4 +1,4 @@
-Script started on Thu 03 Mar 2016 04:16:54 PM EST
+Script started on Thu 03 Mar 2016 04:42:27 PM EST
 tiche@plus:~/CIS553/proj1> ./run.sh 
 ttfn --latency -p -2 -r -1 eniac.seas.upenn.edu
 packet_size, repeats must be greater than 0
@@ -20,32 +20,31 @@ ttfn --latency -p 20 -r 1 eniac.seas.upenn.edu
 measuring latency
 20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.023000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.023000 ms min: 0.023000 ms avg: 0.023000 ms
 ********************done***********************
 ttfn --latency -p 20 -r 3 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.023000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.040000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.037000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.032000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.031000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.038000 ms
 3 packets transmitted, 3 packets received, 0.00 % packet loss
-round-trip max: 0.040000 ms min: 0.023000 ms avg: 0.033333 ms
+round-trip max: 0.038000 ms min: 0.031000 ms avg: 0.033667 ms
 ********************done***********************
 ttfn --latency -p 20 -r 10 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.025000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.046000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.054000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.023000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
 20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.037000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.040000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
 20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.038000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.053000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.035000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
-20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.049000 ms
+20 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.040000 ms
 10 packets transmitted, 10 packets received, 0.00 % packet loss
-round-trip max: 0.054000 ms min: 0.025000 ms avg: 0.041500 ms
+round-trip max: 0.040000 ms min: 0.023000 ms avg: 0.037300 ms
 ********************done***********************
 ttfn --latency -p 400 -r -1 eniac.seas.upenn.edu
 packet_size, repeats must be greater than 0
@@ -53,34 +52,33 @@ packet_size, repeats must be greater than 0
 ttfn --latency -p 400 -r 1 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.058000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.025000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.058000 ms min: 0.058000 ms avg: 0.058000 ms
 ********************done***********************
 ttfn --latency -p 400 -r 3 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.038000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.037000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.040000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.025000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
 3 packets transmitted, 3 packets received, 0.00 % packet loss
-round-trip max: 0.040000 ms min: 0.037000 ms avg: 0.038333 ms
+round-trip max: 0.039000 ms min: 0.025000 ms avg: 0.034333 ms
 ********************done***********************
 ttfn --latency -p 400 -r 10 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.013000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.040000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.019000 ms
 400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.043000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.043000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.043000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.035000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.032000 ms
-400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.037000 ms
 400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.043000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.037000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.042000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.040000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.039000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.037000 ms
+400 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.036000 ms
 10 packets transmitted, 10 packets received, 0.00 % packet loss
-round-trip max: 0.043000 ms min: 0.013000 ms avg: 0.034400 ms
+round-trip max: 0.043000 ms min: 0.036000 ms avg: 0.039500 ms
 ********************done***********************
 ttfn --latency -p 64000 -r -1 eniac.seas.upenn.edu
 packet_size, repeats must be greater than 0
@@ -88,34 +86,33 @@ packet_size, repeats must be greater than 0
 ttfn --latency -p 64000 -r 1 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.081000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.048000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.081000 ms min: 0.081000 ms avg: 0.081000 ms
 ********************done***********************
 ttfn --latency -p 64000 -r 3 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.048000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.043000 ms
 64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.055000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.055000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.056000 ms
 3 packets transmitted, 3 packets received, 0.00 % packet loss
-round-trip max: 0.055000 ms min: 0.043000 ms avg: 0.048667 ms
+round-trip max: 0.056000 ms min: 0.055000 ms avg: 0.055333 ms
 ********************done***********************
 ttfn --latency -p 64000 -r 10 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring latency
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.113000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.064000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.045000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.046000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.050000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.050000 ms
 64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.055000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.054000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.055000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.071000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.057000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.055000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.050000 ms
 64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.056000 ms
-64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.055000 ms
 64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.053000 ms
+64000 bytes from eniac-l.seas.upenn.edu(158.130.64.112): time= 0.060000 ms
 10 packets transmitted, 10 packets received, 0.00 % packet loss
-round-trip max: 0.113000 ms min: 0.053000 ms avg: 0.062400 ms
+round-trip max: 0.064000 ms min: 0.045000 ms avg: 0.052900 ms
 ********************done***********************
 ttfn --throughput -p -2 -r -1 eniac.seas.upenn.edu
 packet_size, repeats must be greater than 0
@@ -135,37 +132,36 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 20 -r 1 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 20 bytes  time 0.000021 s
+Sent 20 bytes  time 0.000025 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-20      0.000021    952380.95          1         20
-max: 0.021000 ms min: 0.021000 ms avg: 0.021000 ms
+20      0.000025    800000.00          1         20
 ********************done***********************
 ttfn --throughput -p 20 -r 3 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 20 bytes  time 0.000024 s
-Sent 20 bytes  time 0.000038 s
-Sent 20 bytes  time 0.000036 s
+Sent 20 bytes  time 0.000023 s
+Sent 20 bytes  time 0.000033 s
+Sent 20 bytes  time 0.000033 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-60      0.000098    612244.90          3         20
-max: 0.038000 ms min: 0.024000 ms avg: 0.032667 ms
+60      0.000089    674157.30          3         20
+max: 0.033000 ms min: 0.023000 ms avg: 0.029667 ms
 ********************done***********************
 ttfn --throughput -p 20 -r 10 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 20 bytes  time 0.000019 s
-Sent 20 bytes  time 0.000060 s
+Sent 20 bytes  time 0.000022 s
+Sent 20 bytes  time 0.000039 s
+Sent 20 bytes  time 0.000039 s
+Sent 20 bytes  time 0.000039 s
+Sent 20 bytes  time 0.000037 s
+Sent 20 bytes  time 0.000031 s
+Sent 20 bytes  time 0.000048 s
+Sent 20 bytes  time 0.000039 s
+Sent 20 bytes  time 0.000039 s
 Sent 20 bytes  time 0.000038 s
-Sent 20 bytes  time 0.000039 s
-Sent 20 bytes  time 0.000043 s
-Sent 20 bytes  time 0.000038 s
-Sent 20 bytes  time 0.000036 s
-Sent 20 bytes  time 0.000039 s
-Sent 20 bytes  time 0.000039 s
-Sent 20 bytes  time 0.000039 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-200      0.000390    512820.51          10         20
-max: 0.060000 ms min: 0.019000 ms avg: 0.039000 ms
+200      0.000371    539083.56          10         20
+max: 0.048000 ms min: 0.022000 ms avg: 0.037100 ms
 ********************done***********************
 ttfn --throughput -p 400 -r -1 eniac.seas.upenn.edu
 packet_size, repeats must be greater than 0
@@ -173,37 +169,36 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 400 -r 1 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 400 bytes  time 0.000023 s
+Sent 400 bytes  time 0.000022 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-400      0.000023    17391304.35          1         400
-max: 0.023000 ms min: 0.023000 ms avg: 0.023000 ms
+400      0.000022    18181818.18          1         400
 ********************done***********************
 ttfn --throughput -p 400 -r 3 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
 Sent 400 bytes  time 0.000016 s
-Sent 400 bytes  time 0.000069 s
+Sent 400 bytes  time 0.000042 s
 Sent 400 bytes  time 0.000039 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-1200      0.000124    9677419.35          3         400
-max: 0.069000 ms min: 0.016000 ms avg: 0.041333 ms
+1200      0.000097    12371134.02          3         400
+max: 0.042000 ms min: 0.016000 ms avg: 0.032333 ms
 ********************done***********************
 ttfn --throughput -p 400 -r 10 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 400 bytes  time 0.000028 s
-Sent 400 bytes  time 0.000039 s
-Sent 400 bytes  time 0.000039 s
-Sent 400 bytes  time 0.000039 s
-Sent 400 bytes  time 0.000039 s
-Sent 400 bytes  time 0.000042 s
-Sent 400 bytes  time 0.000039 s
-Sent 400 bytes  time 0.000038 s
+Sent 400 bytes  time 0.000023 s
+Sent 400 bytes  time 0.000022 s
 Sent 400 bytes  time 0.000040 s
 Sent 400 bytes  time 0.000039 s
+Sent 400 bytes  time 0.000039 s
+Sent 400 bytes  time 0.000040 s
+Sent 400 bytes  time 0.000036 s
+Sent 400 bytes  time 0.000034 s
+Sent 400 bytes  time 0.000034 s
+Sent 400 bytes  time 0.000040 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-4000      0.000382    10471204.19          10         400
-max: 0.042000 ms min: 0.028000 ms avg: 0.038200 ms
+4000      0.000347    11527377.52          10         400
+max: 0.040000 ms min: 0.022000 ms avg: 0.034700 ms
 ********************done***********************
 ttfn --throughput -p 64000 -r -1 eniac.seas.upenn.edu
 packet_size, repeats must be greater than 0
@@ -211,38 +206,37 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 64000 -r 1 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 64000 bytes  time 0.000046 s
+Sent 64000 bytes  time 0.000064 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-64000      0.000046    1391304347.83          1         64000
-max: 0.046000 ms min: 0.046000 ms avg: 0.046000 ms
+64000      0.000064    1000000000.00          1         64000
 ********************done***********************
 ttfn --throughput -p 64000 -r 3 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 64000 bytes  time 0.000063 s
-Sent 64000 bytes  time 0.000051 s
-Sent 64000 bytes  time 0.000054 s
+Sent 64000 bytes  time 0.000044 s
+Sent 64000 bytes  time 0.000052 s
+Sent 64000 bytes  time 0.000056 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-192000      0.000168    1142857142.86          3         64000
-max: 0.063000 ms min: 0.051000 ms avg: 0.056000 ms
+192000      0.000152    1263157894.74          3         64000
+max: 0.056000 ms min: 0.044000 ms avg: 0.050667 ms
 ********************done***********************
 ttfn --throughput -p 64000 -r 10 eniac.seas.upenn.edu
     Host Address to test: 158.130.64.112 
 measuring throughput
-Sent 64000 bytes  time 0.000044 s
-Sent 64000 bytes  time 0.000082 s
-Sent 64000 bytes  time 0.000051 s
-Sent 64000 bytes  time 0.000056 s
-Sent 64000 bytes  time 0.000065 s
 Sent 64000 bytes  time 0.000054 s
-Sent 64000 bytes  time 0.000060 s
-Sent 64000 bytes  time 0.000079 s
+Sent 64000 bytes  time 0.000057 s
 Sent 64000 bytes  time 0.000055 s
-Sent 64000 bytes  time 0.000056 s
+Sent 64000 bytes  time 0.000046 s
+Sent 64000 bytes  time 0.000053 s
+Sent 64000 bytes  time 0.000053 s
+Sent 64000 bytes  time 0.000052 s
+Sent 64000 bytes  time 0.000053 s
+Sent 64000 bytes  time 0.000050 s
+Sent 64000 bytes  time 0.000070 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-640000      0.000602    1063122923.59          10         64000
-max: 0.082000 ms min: 0.044000 ms avg: 0.060200 ms
+640000      0.000543    1178637200.74          10         64000
+max: 0.070000 ms min: 0.046000 ms avg: 0.054300 ms
 ********************done***********************
 tiche@plus:~/CIS553/proj1> exit
 
-Script done on Thu 03 Mar 2016 04:18:42 PM EST
+Script done on Thu 03 Mar 2016 04:44:51 PM EST

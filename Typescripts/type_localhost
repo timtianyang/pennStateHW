@@ -1,5 +1,5 @@
-Script started on Thu Mar  3 16:24:41 2016
-[?1034hbash-3.2$ ./[K[K./run.sh
+Script started on Thu Mar  3 16:49:15 2016
+[?1034hbash-3.2$ run[K[K[K./run_localhost.sh 
 ttfn --latency -p -64 -r 0 localhost
 packet_size, repeats must be greater than 0
 ************Done**********************
@@ -18,28 +18,27 @@ packet_size, repeats must be greater than 0
 ttfn --latency -p 64 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-64 bytes from localhost(127.0.0.1): time= 0.026000 ms
+64 bytes from localhost(127.0.0.1): time= 0.022000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.026000 ms min: 0.026000 ms avg: 0.026000 ms
 ************Done**********************
 ttfn --latency -p 64 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-64 bytes from localhost(127.0.0.1): time= 0.029000 ms
-64 bytes from localhost(127.0.0.1): time= 0.098000 ms
+64 bytes from localhost(127.0.0.1): time= 0.022000 ms
+64 bytes from localhost(127.0.0.1): time= 0.125000 ms
 2 packets transmitted, 2 packets received, 0.00 % packet loss
-round-trip max: 0.098000 ms min: 0.029000 ms avg: 0.063500 ms
+round-trip max: 0.125000 ms min: 0.022000 ms avg: 0.073500 ms
 ************Done**********************
 ttfn --latency -p 64 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
 64 bytes from localhost(127.0.0.1): time= 0.028000 ms
-64 bytes from localhost(127.0.0.1): time= 0.164000 ms
+64 bytes from localhost(127.0.0.1): time= 0.137000 ms
 64 bytes from localhost(127.0.0.1): time= 0.100000 ms
-64 bytes from localhost(127.0.0.1): time= 0.116000 ms
-64 bytes from localhost(127.0.0.1): time= 0.184000 ms
+64 bytes from localhost(127.0.0.1): time= 0.123000 ms
+64 bytes from localhost(127.0.0.1): time= 0.099000 ms
 5 packets transmitted, 5 packets received, 0.00 % packet loss
-round-trip max: 0.184000 ms min: 0.028000 ms avg: 0.118400 ms
+round-trip max: 0.137000 ms min: 0.028000 ms avg: 0.097400 ms
 ************Done**********************
 ttfn --latency -p 640 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -47,28 +46,27 @@ packet_size, repeats must be greater than 0
 ttfn --latency -p 640 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-640 bytes from localhost(127.0.0.1): time= 0.031000 ms
+640 bytes from localhost(127.0.0.1): time= 0.030000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.031000 ms min: 0.031000 ms avg: 0.031000 ms
 ************Done**********************
 ttfn --latency -p 640 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-640 bytes from localhost(127.0.0.1): time= 0.028000 ms
-640 bytes from localhost(127.0.0.1): time= 0.124000 ms
+640 bytes from localhost(127.0.0.1): time= 0.026000 ms
+640 bytes from localhost(127.0.0.1): time= 0.225000 ms
 2 packets transmitted, 2 packets received, 0.00 % packet loss
-round-trip max: 0.124000 ms min: 0.028000 ms avg: 0.076000 ms
+round-trip max: 0.225000 ms min: 0.026000 ms avg: 0.125500 ms
 ************Done**********************
 ttfn --latency -p 640 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
 640 bytes from localhost(127.0.0.1): time= 0.024000 ms
-640 bytes from localhost(127.0.0.1): time= 0.119000 ms
-640 bytes from localhost(127.0.0.1): time= 0.104000 ms
-640 bytes from localhost(127.0.0.1): time= 0.114000 ms
-640 bytes from localhost(127.0.0.1): time= 0.117000 ms
+640 bytes from localhost(127.0.0.1): time= 0.072000 ms
+640 bytes from localhost(127.0.0.1): time= 0.063000 ms
+640 bytes from localhost(127.0.0.1): time= 0.053000 ms
+640 bytes from localhost(127.0.0.1): time= 0.263000 ms
 5 packets transmitted, 5 packets received, 0.00 % packet loss
-round-trip max: 0.119000 ms min: 0.024000 ms avg: 0.095600 ms
+round-trip max: 0.263000 ms min: 0.024000 ms avg: 0.095000 ms
 ************Done**********************
 ttfn --latency -p 6400 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -76,28 +74,27 @@ packet_size, repeats must be greater than 0
 ttfn --latency -p 6400 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-6400 bytes from localhost(127.0.0.1): time= 0.028000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.026000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.028000 ms min: 0.028000 ms avg: 0.028000 ms
 ************Done**********************
 ttfn --latency -p 6400 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-6400 bytes from localhost(127.0.0.1): time= 0.034000 ms
-6400 bytes from localhost(127.0.0.1): time= 0.126000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.027000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.103000 ms
 2 packets transmitted, 2 packets received, 0.00 % packet loss
-round-trip max: 0.126000 ms min: 0.034000 ms avg: 0.080000 ms
+round-trip max: 0.103000 ms min: 0.027000 ms avg: 0.065000 ms
 ************Done**********************
 ttfn --latency -p 6400 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-6400 bytes from localhost(127.0.0.1): time= 0.025000 ms
-6400 bytes from localhost(127.0.0.1): time= 0.118000 ms
-6400 bytes from localhost(127.0.0.1): time= 0.151000 ms
-6400 bytes from localhost(127.0.0.1): time= 0.150000 ms
-6400 bytes from localhost(127.0.0.1): time= 0.135000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.031000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.099000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.090000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.105000 ms
+6400 bytes from localhost(127.0.0.1): time= 0.129000 ms
 5 packets transmitted, 5 packets received, 0.00 % packet loss
-round-trip max: 0.151000 ms min: 0.025000 ms avg: 0.115800 ms
+round-trip max: 0.129000 ms min: 0.031000 ms avg: 0.090800 ms
 ************Done**********************
 ttfn --latency -p 64000 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -105,28 +102,27 @@ packet_size, repeats must be greater than 0
 ttfn --latency -p 64000 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-64000 bytes from localhost(127.0.0.1): time= 0.052000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.055000 ms
 1 packets transmitted, 1 packets received, 0.00 % packet loss
-round-trip max: 0.052000 ms min: 0.052000 ms avg: 0.052000 ms
 ************Done**********************
 ttfn --latency -p 64000 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-64000 bytes from localhost(127.0.0.1): time= 0.043000 ms
-64000 bytes from localhost(127.0.0.1): time= 0.235000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.050000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.147000 ms
 2 packets transmitted, 2 packets received, 0.00 % packet loss
-round-trip max: 0.235000 ms min: 0.043000 ms avg: 0.139000 ms
+round-trip max: 0.147000 ms min: 0.050000 ms avg: 0.098500 ms
 ************Done**********************
 ttfn --latency -p 64000 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring latency
-64000 bytes from localhost(127.0.0.1): time= 0.052000 ms
-64000 bytes from localhost(127.0.0.1): time= 0.279000 ms
-64000 bytes from localhost(127.0.0.1): time= 0.206000 ms
-64000 bytes from localhost(127.0.0.1): time= 0.121000 ms
-64000 bytes from localhost(127.0.0.1): time= 0.142000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.044000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.145000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.100000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.117000 ms
+64000 bytes from localhost(127.0.0.1): time= 0.246000 ms
 5 packets transmitted, 5 packets received, 0.00 % packet loss
-round-trip max: 0.279000 ms min: 0.052000 ms avg: 0.160000 ms
+round-trip max: 0.246000 ms min: 0.044000 ms avg: 0.130400 ms
 ************Done**********************
 ttfn --throughput -p -64 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -146,31 +142,30 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 64 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 64 bytes  time 0.000029 s
+Sent 64 bytes  time 0.000026 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-64      0.000029    2206896.55          1         64
-max: 0.029000 ms min: 0.029000 ms avg: 0.029000 ms
+64      0.000026    2461538.46          1         64
 ************Done**********************
 ttfn --throughput -p 64 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 64 bytes  time 0.000024 s
-Sent 64 bytes  time 0.000230 s
+Sent 64 bytes  time 0.000029 s
+Sent 64 bytes  time 0.000129 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-128      0.000254    503937.01          2         64
-max: 0.230000 ms min: 0.024000 ms avg: 0.127000 ms
+128      0.000158    810126.58          2         64
+max: 0.129000 ms min: 0.029000 ms avg: 0.079000 ms
 ************Done**********************
 ttfn --throughput -p 64 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 64 bytes  time 0.000028 s
-Sent 64 bytes  time 0.000123 s
-Sent 64 bytes  time 0.000096 s
-Sent 64 bytes  time 0.000228 s
-Sent 64 bytes  time 0.000145 s
+Sent 64 bytes  time 0.000021 s
+Sent 64 bytes  time 0.000098 s
+Sent 64 bytes  time 0.000117 s
+Sent 64 bytes  time 0.000099 s
+Sent 64 bytes  time 0.000136 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-320      0.000620    516129.03          5         64
-max: 0.228000 ms min: 0.028000 ms avg: 0.124000 ms
+320      0.000471    679405.52          5         64
+max: 0.136000 ms min: 0.021000 ms avg: 0.094200 ms
 ************Done**********************
 ttfn --throughput -p 640 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -178,31 +173,30 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 640 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 640 bytes  time 0.000028 s
+Sent 640 bytes  time 0.000027 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-640      0.000028    22857142.86          1         640
-max: 0.028000 ms min: 0.028000 ms avg: 0.028000 ms
+640      0.000027    23703703.70          1         640
 ************Done**********************
 ttfn --throughput -p 640 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 640 bytes  time 0.000023 s
-Sent 640 bytes  time 0.000166 s
+Sent 640 bytes  time 0.000022 s
+Sent 640 bytes  time 0.000162 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-1280      0.000189    6772486.77          2         640
-max: 0.166000 ms min: 0.023000 ms avg: 0.094500 ms
+1280      0.000184    6956521.74          2         640
+max: 0.162000 ms min: 0.022000 ms avg: 0.092000 ms
 ************Done**********************
 ttfn --throughput -p 640 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 640 bytes  time 0.000028 s
-Sent 640 bytes  time 0.000102 s
+Sent 640 bytes  time 0.000032 s
+Sent 640 bytes  time 0.000119 s
 Sent 640 bytes  time 0.000170 s
-Sent 640 bytes  time 0.000083 s
-Sent 640 bytes  time 0.000122 s
+Sent 640 bytes  time 0.000160 s
+Sent 640 bytes  time 0.000163 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-3200      0.000505    6336633.66          5         640
-max: 0.170000 ms min: 0.028000 ms avg: 0.101000 ms
+3200      0.000644    4968944.10          5         640
+max: 0.170000 ms min: 0.032000 ms avg: 0.128800 ms
 ************Done**********************
 ttfn --throughput -p 6400 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -210,31 +204,30 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 6400 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 6400 bytes  time 0.000025 s
+Sent 6400 bytes  time 0.000031 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-6400      0.000025    256000000.00          1         6400
-max: 0.025000 ms min: 0.025000 ms avg: 0.025000 ms
+6400      0.000031    206451612.90          1         6400
 ************Done**********************
 ttfn --throughput -p 6400 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 6400 bytes  time 0.000030 s
-Sent 6400 bytes  time 0.000110 s
+Sent 6400 bytes  time 0.000021 s
+Sent 6400 bytes  time 0.000148 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-12800      0.000140    91428571.43          2         6400
-max: 0.110000 ms min: 0.030000 ms avg: 0.070000 ms
+12800      0.000169    75739644.97          2         6400
+max: 0.148000 ms min: 0.021000 ms avg: 0.084500 ms
 ************Done**********************
 ttfn --throughput -p 6400 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
 Sent 6400 bytes  time 0.000029 s
-Sent 6400 bytes  time 0.000136 s
-Sent 6400 bytes  time 0.000089 s
-Sent 6400 bytes  time 0.000118 s
-Sent 6400 bytes  time 0.000100 s
+Sent 6400 bytes  time 0.000106 s
+Sent 6400 bytes  time 0.000134 s
+Sent 6400 bytes  time 0.000106 s
+Sent 6400 bytes  time 0.000126 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-32000      0.000472    67796610.17          5         6400
-max: 0.136000 ms min: 0.029000 ms avg: 0.094400 ms
+32000      0.000501    63872255.49          5         6400
+max: 0.134000 ms min: 0.029000 ms avg: 0.100200 ms
 ************Done**********************
 ttfn --throughput -p 64000 -r 0 localhost
 packet_size, repeats must be greater than 0
@@ -242,32 +235,31 @@ packet_size, repeats must be greater than 0
 ttfn --throughput -p 64000 -r 1 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 64000 bytes  time 0.000045 s
+Sent 64000 bytes  time 0.000056 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-64000      0.000045    1422222222.22          1         64000
-max: 0.045000 ms min: 0.045000 ms avg: 0.045000 ms
+64000      0.000056    1142857142.86          1         64000
 ************Done**********************
 ttfn --throughput -p 64000 -r 2 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 64000 bytes  time 0.000041 s
-Sent 64000 bytes  time 0.000161 s
+Sent 64000 bytes  time 0.000050 s
+Sent 64000 bytes  time 0.000142 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-128000      0.000202    633663366.34          2         64000
-max: 0.161000 ms min: 0.041000 ms avg: 0.101000 ms
+128000      0.000192    666666666.67          2         64000
+max: 0.142000 ms min: 0.050000 ms avg: 0.096000 ms
 ************Done**********************
 ttfn --throughput -p 64000 -r 5 localhost
     Host Address to test: 127.0.0.1 
 measuring throughput
-Sent 64000 bytes  time 0.000048 s
-Sent 64000 bytes  time 0.000199 s
-Sent 64000 bytes  time 0.000156 s
-Sent 64000 bytes  time 0.000142 s
-Sent 64000 bytes  time 0.000201 s
+Sent 64000 bytes  time 0.000064 s
+Sent 64000 bytes  time 0.000161 s
+Sent 64000 bytes  time 0.000261 s
+Sent 64000 bytes  time 0.000237 s
+Sent 64000 bytes  time 0.000141 s
 Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-320000      0.000746    428954423.59          5         64000
-max: 0.201000 ms min: 0.048000 ms avg: 0.149200 ms
+320000      0.000864    370370370.37          5         64000
+max: 0.261000 ms min: 0.064000 ms avg: 0.172800 ms
 ************Done**********************
 bash-3.2$ exit
 
-Script done on Thu Mar  3 16:26:45 2016
+Script done on Thu Mar  3 16:51:13 2016
