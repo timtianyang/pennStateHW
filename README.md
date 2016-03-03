@@ -1,4 +1,4 @@
-# pennStateHW
+# ttfn implementation
 
 To run the program:
 1. Go to the directory /ttfn
@@ -9,3 +9,4 @@ To run the program:
 Note:
 1. The port number is hard coded in server and client code to be 13547. You may change the port number in case there's a conflict
 2. Our test typescripts are saved in directory /ttfn/typescripts
+3. We use the package size specified by the command line argument as the total size of each package
