@@ -109,7 +109,9 @@ void ttfn_latency(){
     double cpu_time_used;
     
     char * buf;
+    char * ack = "r";
     
+    receive_buf = (char*) malloc(packet_size);
     buf = (char*) malloc(packet_size);
     if (buf == NULL) exit (1);
     
@@ -136,12 +138,19 @@ void ttfn_latency(){
     long double sum = 0;
     int count = 0;
     
-    int i;
+    int i, rec;
     for ( i = 0; i<repeat; i++){
         start = clock();
         if((n =send(sock, buf, packet_size, 0)) < 0){
             perror("send failed");
             exit(1);
+        }
+        memset(receive_buf, 0, sizeof(receive_buf));
+        if((rec = read(sock, receive_buf, packet_size)) < 0){
+            perror("receiving failed");
+        }
+        if(strcmp(receive_buf,ack) != 0){
+            perror("received no ACK");
         }
         end = clock();
         cpu_time_used = ((double) (end - start)/CLOCKS_PER_SEC);
@@ -173,6 +182,7 @@ void ttfn_throughput(){
     char * buf;
     char * ack = "r";
     
+    receive_buf = (char*) malloc(packet_size);
     buf = (char*) malloc(packet_size);
     if (buf == NULL) exit (1);
     
@@ -204,11 +214,11 @@ void ttfn_throughput(){
             perror("send failed");
             exit(1);
         }
-        memset(buf, 0, sizeof(buf));
-        if((rec = read(sock, buf, packet_size)) < 0){
+        memset(receive_buf, 0, sizeof(receive_buf));
+        if((rec = read(sock, receive_buf, packet_size)) < 0){
             perror("receiving failed");
         }
-        if(strcmp(buf,ack) != 0){
+        if(strcmp(receive_buf,ack) != 0){
             perror("received no ACK");
         }
         end = clock();
