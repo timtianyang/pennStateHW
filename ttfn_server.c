@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     const int PORT = 13547;
     char buff[BUFSIZE];
     ssize_t rval = 0;
-    int delay = 0;
+    int delay = 1000;
     
     
     /* Create socket */
@@ -48,17 +48,21 @@ int main(int argc, char *argv[])
         {
             while (1){
                 memset(buff, 0, sizeof(buff));
-                if((rval = read(mysock, buff, BUFSIZE)) < 0){
+                if((rval = recv(mysock, buff, BUFSIZE, 0)) < 0){
                     perror("reading stream message error");
                 }
+                //printf("rval = %zd \n", rval);
+                if (rval == 0)
+                    break;
                 usleep(delay);
                 memset(buff, 0, sizeof(buff));
                 strcpy(buff, "r");
                 ssize_t n;
-                if((n =send(sock, buff, sizeof(buff), 0)) < 0){
+                if((n =send(mysock, buff, sizeof(buff), 0)) < 0){
                     perror("send failed");
                     exit(1);
                 }
+                printf("server sent: %s \n", buff);
                 clock_t end = clock();
                 if (rval == 0) break;
                 printf("Got the message (rval = %d) (time = %Lf)\n", (int)rval, (long double)end/CLOCKS_PER_SEC);
