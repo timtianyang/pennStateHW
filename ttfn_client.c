@@ -171,6 +171,7 @@ void ttfn_throughput(){
     double cpu_time_used;
     
     char * buf;
+    char * ack = "r";
     
     buf = (char*) malloc(packet_size);
     if (buf == NULL) exit (1);
@@ -196,12 +197,19 @@ void ttfn_throughput(){
     long double max = 0;
     long double min = 1000;
     long double sum = 0;
-    int i;
+    int i, rec;
     for (i = 0; i<repeat; i++){
         start = clock();
         if((n =send(sock, buf, packet_size, 0)) < 0){
             perror("send failed");
             exit(1);
+        }
+        memset(buf, 0, sizeof(buf));
+        if((rec = read(sock, buf, packet_size)) < 0){
+            perror("receiving failed");
+        }
+        if(strcmp(buf,ack) != 0){
+            perror("received no ACK");
         }
         end = clock();
         cpu_time_used = ((double) (end - start)/CLOCKS_PER_SEC);
