@@ -109,6 +109,7 @@ void ttfn_latency(){
     double cpu_time_used;
     
     char * buf;
+    char * receive_buf;
     char * ack = "r";
     
     receive_buf = (char*) malloc(packet_size);
@@ -180,6 +181,7 @@ void ttfn_throughput(){
     double cpu_time_used;
     
     char * buf;
+    char * receive_buf;
     char * ack = "r";
     
     receive_buf = (char*) malloc(packet_size);
