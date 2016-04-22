@@ -101,6 +101,24 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+void recv_ack(int sock){
+    char * receive_buf;
+    char * ack = "r";
+    receive_buf = (char*) malloc(packet_size);
+    memset(receive_buf, 0, sizeof(receive_buf));
+    int rec;
+    if((rec = recv(sock, receive_buf, packet_size, 0)) < 0){
+        perror("receiving failed");
+    }
+    while(strcmp(receive_buf,ack) != 0){
+        //perror("received no ACK");
+        if((rec = recv(sock, receive_buf, packet_size, 0)) < 0){
+            perror("receiving failed");
+        }
+    }
+    printf("Received: %s\n", receive_buf);
+}
+
 void ttfn_latency(){
     int sock;
     struct sockaddr_in server;
@@ -143,7 +161,9 @@ void ttfn_latency(){
             perror("send failed");
             exit(1);
         }
+        recv_ack(sock);
         end = clock();
+        printf("start = %lu, end = %lu\n", start, end);
         cpu_time_used = ((double) (end - start)/CLOCKS_PER_SEC);
         printf("%d bytes from %s(%s): time= %Lf ms\n", (int)n, hp->h_name, hostip, (long double)cpu_time_used*1000);
         fflush(stdout);
@@ -171,7 +191,6 @@ void ttfn_throughput(){
     double cpu_time_used;
     
     char * buf;
-    
     buf = (char*) malloc(packet_size);
     if (buf == NULL) exit (1);
     
@@ -203,7 +222,9 @@ void ttfn_throughput(){
             perror("send failed");
             exit(1);
         }
+        recv_ack(sock);
         end = clock();
+        printf("start = %lu, end = %lu\n", start, end);
         cpu_time_used = ((double) (end - start)/CLOCKS_PER_SEC);
         printf("Sent %d bytes  time %Lf s\n", (int)n, (long double)cpu_time_used);
         fflush(stdout);
