@@ -1,0 +1,22 @@
+Script started on Fri 22 Apr 2016 06:19:59 PM EDT
+]0;zhhuazhi@jms-553: ~/ttfn[01;32mzhhuazhi@jms-553[00m:[01;34m~/ttfn[00m$ ./ttfn_server -f delay.txt[K[K[K[K[K[K[K[K[K[K[K[K[K
+You didn't specify a file name so the delay will be zero
+Delay is 0 microseconds
+server sent: r 
+Got the message (rval = 1000) (time = 0.001466)
+Delay is 0 microseconds
+server sent: r 
+Got the message (rval = 1000) (time = 0.001550)
+Delay is 0 microseconds
+server sent: r 
+Got the message (rval = 1000) (time = 0.001620)
+Delay is 0 microseconds
+server sent: r 
+Got the message (rval = 1000) (time = 0.001691)
+Delay is 0 microseconds
+server sent: r 
+Got the message (rval = 1000) (time = 0.001769)
+^C
+]0;zhhuazhi@jms-553: ~/ttfn[01;32mzhhuazhi@jms-553[00m:[01;34m~/ttfn[00m$ exit
+
+Script done on Fri 22 Apr 2016 06:20:34 PM EDT

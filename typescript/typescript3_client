@@ -1,0 +1,31 @@
+Script started on Fri 22 Apr 2016 06:16:00 PM EDT
+]0;zhhuazhi@jms-553: ~/ttfn[01;32mzhhuazhi@jms-553[00m:[01;34m~/ttfn[00m$ ./ttfn_server -f delay.txt
+reading from file -f
+there are 5 lines in the file
+0
+1000
+8000
+1000000
+4000000
+Delay is 1000000 microseconds
+server sent: r 
+Got the message (rval = 60000) (time = 0.001339)
+Delay is 1000000 microseconds
+server sent: r 
+Got the message (rval = 60000) (time = 0.001498)
+Delay is 4000000 microseconds
+server sent: r 
+Got the message (rval = 60000) (time = 0.001624)
+Delay is 1000 microseconds
+server sent: r 
+Got the message (rval = 60000) (time = 0.001741)
+Delay is 8000 microseconds
+server sent: r 
+Got the message (rval = 60000) (time = 0.001848)
+Delay is 8000 microseconds
+server sent: r 
+Got the message (rval = 60000) (time = 0.001956)
+^C
+]0;zhhuazhi@jms-553: ~/ttfn[01;32mzhhuazhi@jms-553[00m:[01;34m~/ttfn[00m$ exit
+
+Script done on Fri 22 Apr 2016 06:17:51 PM EDT
