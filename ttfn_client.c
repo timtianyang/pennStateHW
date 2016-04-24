@@ -90,6 +90,9 @@ int main(int argc, char *argv[]) {
         if(packet_size == 1)
             packet_size = 64;
         ttfn_latency();
+	printf("the end\n");
+	while(1)
+	    sleep(1);
     }
     else if ( through_put )
     {
@@ -97,6 +100,9 @@ int main(int argc, char *argv[]) {
         if(packet_size == 1)
             packet_size = 512;
         ttfn_throughput();
+	printf("the end\n");
+	while(1)
+	    sleep(1);
     }
     return 0;
 }
@@ -198,6 +204,9 @@ void ttfn_latency(){
     printf("%d packets transmitted, %d packets received, %.2Lf %% packet loss\n", repeat, count, (long double)(repeat - count)/repeat);
     if (repeat > 1)
         printf("round-trip max: %Lf ms min: %Lf ms avg: %Lf ms\n", max, min, avg);
+    printf("done\n");
+	while(1)
+	    sleep(1);
 }
 
 void ttfn_throughput(){
@@ -255,4 +264,7 @@ void ttfn_throughput(){
     printf("%li      %Lf    %.2Lf          %d         %d\n", total, sum, (long double)total/sum, repeat, packet_size);
     if (repeat > 1)
         printf("max: %Lf ms min: %Lf ms avg: %Lf ms\n", max, min, avg);
+    printf("done\n");
+    while(1)
+	    sleep(1);
 }
