@@ -1,0 +1,22 @@
+Script started on Mon 25 Apr 2016 04:38:32 PM EDT
+]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ ./ttfn --throughput -p 1000 -r 10 158 .130.6.243
+    Host Address to test: 158.130.6.243 
+measuring throughput
+Sent 1000 bytes  time 0.732793 ms
+Sent 1000 bytes  time 0.493930 ms
+Sent 1000 bytes  time 0.861514 ms
+Sent 1000 bytes  time 0.479542 ms
+Sent 1000 bytes  time 0.477097 ms
+Sent 1000 bytes  time 0.853691 ms
+Sent 1000 bytes  time 0.490856 ms
+Sent 1000 bytes  time 0.480450 ms
+Sent 1000 bytes  time 0.478005 ms
+Sent 1000 bytes  time 0.497352 ms
+Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
+10000      5.845230    1710.80          10         1000
+max: 0.861514 ms min: 0.477097 ms avg: 0.584523 ms
+done
+^C
+]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ exit
+
+Script done on Mon 25 Apr 2016 04:39:09 PM EDT

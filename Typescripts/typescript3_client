@@ -1,0 +1,16 @@
+Script started on Mon 25 Apr 2016 04:32:42 PM EDT
+]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ ./ttfn --latency -p 60000 p[K-r 5 158.13 0.6.243
+    Host Address to test: 158.130.6.243 
+measuring latency
+60000 bytes from 158.130.6.243(158.130.6.243): time= 5.537018 ms
+60000 bytes from 158.130.6.243(158.130.6.243): time= 1005.631912 ms
+60000 bytes from 158.130.6.243(158.130.6.243): time= 13.441127 ms
+60000 bytes from 158.130.6.243(158.130.6.243): time= 5.427575 ms
+60000 bytes from 158.130.6.243(158.130.6.243): time= 1005.634641 ms
+5 packets transmitted, 5 packets received, 0.00 % packet loss
+round-trip max: 1005.634641 ms min: 5.427575 ms avg: 407.134455 ms
+done
+^C
+]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ exit
+
+Script done on Mon 25 Apr 2016 04:33:35 PM EDT
