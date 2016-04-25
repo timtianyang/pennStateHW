@@ -1,28 +1,16 @@
-Script started on Fri 22 Apr 2016 06:19:06 PM EDT
-]0;zhhuazhi@jms-553: ~/ttfn[01;32mzhhuazhi@jms-553[00m:[01;34m~/ttfn[00m$ ./ttfn_server -f delay.txt
-reading from file -f
-there are 5 lines in the file
-0
-1000
-8000
-1000000
-4000000
-Delay is 0 microseconds
-server sent: r 
-Got the message (rval = 1000) (time = 0.001274)
-Delay is 1000 microseconds
-server sent: r 
-Got the message (rval = 1000) (time = 0.001357)
-Delay is 8000 microseconds
-server sent: r 
-Got the message (rval = 1000) (time = 0.001425)
-Delay is 1000000 microseconds
-server sent: r 
-Got the message (rval = 1000) (time = 0.001546)
-Delay is 1000000 microseconds
-server sent: r 
-Got the message (rval = 1000) (time = 0.001658)
-^C
-]0;zhhuazhi@jms-553: ~/ttfn[01;32mzhhuazhi@jms-553[00m:[01;34m~/ttfn[00m$ exit
+Script started on Fri 22 Apr 2016 06:19:11 PM EDT
+]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ ./ttfn --latency -p 5000 -r 8 158.130..6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C60000 -r 6 158.130.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5000 -r 8 158.130.[1P6.243[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C000 -r 8 158.130.6[1P.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1000 -r 8 158.130.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 158.130.6[1P.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 158.130.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+    Host Address to test: 158.130.6.243 
+measuring latency
+1000 bytes from 158.130.6.243(158.130.6.243): time= 0.713928 ms
+1000 bytes from 158.130.6.243(158.130.6.243): time= 1.494904 ms
+1000 bytes from 158.130.6.243(158.130.6.243): time= 8.493242 ms
+1000 bytes from 158.130.6.243(158.130.6.243): time= 1000.644883 ms
+1000 bytes from 158.130.6.243(158.130.6.243): time= 1000.630071 ms
+5 packets transmitted, 5 packets received, 0.00 % packet loss
+round-trip max: 1000.644883 ms min: 0.713928 ms avg: 402.395406 ms
+Segmentation fault
+]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ exit
 
-Script done on Fri 22 Apr 2016 06:19:46 PM EDT
+Script done on Fri 22 Apr 2016 06:19:42 PM EDT

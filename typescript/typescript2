@@ -1,19 +1,0 @@
-Script started on Fri 22 Apr 2016 06:14:43 PM EDT
-]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ ./ttfn --throughput -p 1000 -r 10 158..130.6.243[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C000 -r 10 158.1[1P30.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2000 -r 10 158.130.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 158.1[1P30.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 158.13[1P0.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6 158.130.6.243[A]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[C[C[C
-    Host Address to test: 158.130.6.243 
-measuring throughput
-Sent 2000 bytes  time 8.829819 ms
-Sent 2000 bytes  time 1000.774124 ms
-Sent 2000 bytes  time 0.534503 ms
-Sent 2000 bytes  time 4000.740572 ms
-Sent 2000 bytes  time 0.553641 ms
-Sent 2000 bytes  time 0.586746 ms
-Total Bytes   Real s    Real-Bytes/s   Msgs Transferred  Packet-Size(bytes)
-12000      5012.019405    2.39          6         2000
-max: 4000.740572 ms min: 0.534503 ms avg: 835.336568 ms
-end of threoughput
-Segmentation fault
-]0;zhhuazhi@jms-553-1: ~/ttfn[01;32mzhhuazhi@jms-553-1[00m:[01;34m~/ttfn[00m$ exit
-
-Script done on Fri 22 Apr 2016 06:15:30 PM EDT
