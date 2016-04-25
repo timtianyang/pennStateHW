@@ -69,7 +69,10 @@ int main(int argc, char *argv[])
 		rewind(fp);
 		i = 0;
 		while (getline(&line, &len, fp) != -1) {
-		    delays[i++] = atoi(line);
+		    delays[i] = atoi(line);
+		    if ( delays[i] < 0 )
+			delays[i] = 0;
+		    i++;
 		}
 		for (i=0;i<size;i++)
 		    printf("%d\n",delays[i]);
